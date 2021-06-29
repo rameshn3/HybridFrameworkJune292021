@@ -1,0 +1,190 @@
+2021-06-26 07:33:26 DEBUG ExtentManager:37 - Create Object for Date class
+2021-06-26 07:33:27 DEBUG TestBase:50 - fetch the browser value
+2021-06-26 07:33:27 DEBUG TestBase:31 - Create Object for the class -Properties
+2021-06-26 07:33:27 DEBUG TestBase:33 - read the properties file..
+2021-06-26 07:33:27 DEBUG TestBase:37 - load the properties
+2021-06-26 07:33:36 DEBUG TestBase:71 - maximize the window
+2021-06-26 07:33:37 DEBUG TestBase:73 - add implicit wait
+2021-06-26 07:33:37 DEBUG TestBase:76 - create object for WebDriverWait
+2021-06-26 07:33:37 DEBUG TestBase:31 - Create Object for the class -Properties
+2021-06-26 07:33:37 DEBUG TestBase:33 - read the properties file..
+2021-06-26 07:33:37 DEBUG TestBase:37 - load the properties
+2021-06-26 07:33:37 DEBUG TestBase:79 - launch the application urlhttps://linkedin.com/home
+2021-06-26 07:33:37 DEBUG TestBase:31 - Create Object for the class -Properties
+2021-06-26 07:33:37 DEBUG TestBase:33 - read the properties file..
+2021-06-26 07:33:37 DEBUG TestBase:37 - load the properties
+2021-06-26 07:33:41 DEBUG SearchDataDrivenTest:30 - assign the Object value for each page class
+2021-06-26 07:33:41 DEBUG SearchDataDrivenTest:38 - Started executing the performLoginTest()
+2021-06-26 07:33:41 DEBUG SearchDataDrivenTest:39 - Verify Linkedin Home page title
+2021-06-26 07:33:41 DEBUG LinkedinHomePage:40 - waiting for the page title:LinkedIn: Log In or Sign Up
+2021-06-26 07:33:41 DEBUG SearchDataDrivenTest:41 - verify the presence of Linkedin logo in home page
+2021-06-26 07:33:41 DEBUG LinkedinHomePage:52 - Verifying the linkedin logo in home page
+2021-06-26 07:33:42 DEBUG SearchDataDrivenTest:43 - click on sign in link in home page
+2021-06-26 07:33:42 DEBUG LinkedinHomePage:64 - click on sign in link in linkedin home page
+2021-06-26 07:33:42 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-06-26 07:33:43 DEBUG BasePageWeb:43 - click on the given element
+2021-06-26 07:33:56 DEBUG SearchDataDrivenTest:45 - Verif ythe linkedin login page title
+2021-06-26 07:33:56 DEBUG LinkedinHomePage:46 - waiting for the page title:LinkedIn Login, Sign in | LinkedIn
+2021-06-26 07:33:56 INFO  SearchDataDrivenTest:47 - Verify the linkedin login page sign in header text
+2021-06-26 07:33:56 DEBUG LinkedinHomePage:58 - Verifying the linkedin login singin header text
+2021-06-26 07:33:57 INFO  SearchDataDrivenTest:49 - perform the login test
+2021-06-26 07:33:57 DEBUG TestBase:31 - Create Object for the class -Properties
+2021-06-26 07:33:57 DEBUG TestBase:33 - read the properties file..
+2021-06-26 07:33:57 DEBUG TestBase:37 - load the properties
+2021-06-26 07:33:57 DEBUG TestBase:31 - Create Object for the class -Properties
+2021-06-26 07:33:57 DEBUG TestBase:33 - read the properties file..
+2021-06-26 07:33:57 DEBUG TestBase:37 - load the properties
+2021-06-26 07:33:57 DEBUG LinkedinHomePage:74 - performing the login operation on linkedin website
+2021-06-26 07:33:58 DEBUG LinkedinHomePage:69 - click on sign in Button in linkedin login page
+2021-06-26 07:33:58 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-06-26 07:33:58 DEBUG BasePageWeb:43 - click on the given element
+2021-06-26 07:34:09 DEBUG LinkedinLoggedinPage:32 - Verifying the linkedin loggedin page profile raicard eleemnt
+2021-06-26 07:34:09 DEBUG SearchDataDrivenTest:69 - rading the excel sheet data to dataprovider annotation
+2021-06-26 07:34:09 DEBUG ExcelUtils:28 - Specify the path of file :D:\eclipseworkspaceAug2018\HybridFrameowrkJune212021\src\test\java\com\qa\linkedin\data\searchData.xlsx
+2021-06-26 07:34:09 DEBUG ExcelUtils:31 - read the file
+2021-06-26 07:34:09 DEBUG ExcelUtils:33 - Load workbook
+2021-06-26 07:34:12 DEBUG ExcelUtils:38 - fetch the row count
+2021-06-26 07:34:12 DEBUG ExcelUtils:40 - number of rows in the excel sheet is-->5
+2021-06-26 07:34:12 DEBUG ExcelUtils:42 - number of columns in the excel sheet is -->1
+2021-06-26 07:34:12 DEBUG SearchDataDrivenTest:57 - performing the search for : Ramesh
+2021-06-26 07:34:12 DEBUG LinkedinLoggedinPage:45 - Performing people search for:Ramesh
+2021-06-26 07:34:13 DEBUG LinkedinLoggedinPage:47 - Press ENTER key
+2021-06-26 07:34:15 DEBUG SearchDataDrivenTest:59 - click on see all peole results link
+2021-06-26 07:34:15 DEBUG SearchResultsPage:32 - wait for the Search result page title
+2021-06-26 07:34:16 DEBUG SearchResultsPage:39 - wait for the see all people result link
+2021-06-26 07:34:16 DEBUG SearchResultsPage:42 - click on see all people result link
+2021-06-26 07:34:16 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-06-26 07:34:17 DEBUG BasePageWeb:43 - click on the given element
+2021-06-26 07:34:18 DEBUG SearchResultsPage:54 - fetch the results text
+2021-06-26 07:34:18 DEBUG SearchResultsPage:56 - search results text is:About 276,000 results
+2021-06-26 07:34:18 DEBUG SearchResultsPage:61 - results count text in string format is:276,000
+2021-06-26 07:34:18 DEBUG SearchDataDrivenTest:61 - search results count for:Ramesh is: 276000
+2021-06-26 07:34:18 DEBUG SearchDataDrivenTest:62 - click on Home tab
+2021-06-26 07:34:18 DEBUG SearchResultsPage:68 - click on Hometab
+2021-06-26 07:34:18 DEBUG BasePageWeb:56 - wait for the element to be clickable or not
+2021-06-26 07:34:19 DEBUG BasePageWeb:59 - click an element using javascript click
+2021-06-26 07:34:22 DEBUG SearchDataDrivenTest:57 - performing the search for : Swarupa
+2021-06-26 07:34:22 DEBUG LinkedinLoggedinPage:45 - Performing people search for:Swarupa
+2021-06-26 07:34:22 DEBUG LinkedinLoggedinPage:47 - Press ENTER key
+2021-06-26 07:34:24 DEBUG SearchDataDrivenTest:59 - click on see all peole results link
+2021-06-26 07:34:24 DEBUG SearchResultsPage:32 - wait for the Search result page title
+2021-06-26 07:34:25 DEBUG SearchResultsPage:39 - wait for the see all people result link
+2021-06-26 07:34:25 DEBUG SearchResultsPage:42 - click on see all people result link
+2021-06-26 07:34:25 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-06-26 07:34:25 DEBUG BasePageWeb:43 - click on the given element
+2021-06-26 07:34:26 DEBUG SearchResultsPage:54 - fetch the results text
+2021-06-26 07:34:26 DEBUG SearchResultsPage:56 - search results text is:About 4,000 results
+2021-06-26 07:34:26 DEBUG SearchResultsPage:61 - results count text in string format is:4,000
+2021-06-26 07:34:26 DEBUG SearchDataDrivenTest:61 - search results count for:Swarupa is: 4000
+2021-06-26 07:34:26 DEBUG SearchDataDrivenTest:62 - click on Home tab
+2021-06-26 07:34:26 DEBUG SearchResultsPage:68 - click on Hometab
+2021-06-26 07:34:26 DEBUG BasePageWeb:56 - wait for the element to be clickable or not
+2021-06-26 07:34:27 DEBUG BasePageWeb:59 - click an element using javascript click
+2021-06-26 07:34:30 DEBUG SearchDataDrivenTest:57 - performing the search for : Shanti
+2021-06-26 07:34:30 DEBUG LinkedinLoggedinPage:45 - Performing people search for:Shanti
+2021-06-26 07:34:30 DEBUG LinkedinLoggedinPage:47 - Press ENTER key
+2021-06-26 07:34:32 DEBUG SearchDataDrivenTest:59 - click on see all peole results link
+2021-06-26 07:34:32 DEBUG SearchResultsPage:32 - wait for the Search result page title
+2021-06-26 07:34:32 DEBUG SearchResultsPage:39 - wait for the see all people result link
+2021-06-26 07:34:33 DEBUG SearchResultsPage:42 - click on see all people result link
+2021-06-26 07:34:33 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-06-26 07:34:33 DEBUG BasePageWeb:43 - click on the given element
+2021-06-26 07:34:34 DEBUG SearchResultsPage:54 - fetch the results text
+2021-06-26 07:34:34 DEBUG SearchResultsPage:56 - search results text is:About 57,000 results
+2021-06-26 07:34:34 DEBUG SearchResultsPage:61 - results count text in string format is:57,000
+2021-06-26 07:34:34 DEBUG SearchDataDrivenTest:61 - search results count for:Shanti is: 57000
+2021-06-26 07:34:34 DEBUG SearchDataDrivenTest:62 - click on Home tab
+2021-06-26 07:34:34 DEBUG SearchResultsPage:68 - click on Hometab
+2021-06-26 07:34:34 DEBUG BasePageWeb:56 - wait for the element to be clickable or not
+2021-06-26 07:34:34 DEBUG BasePageWeb:59 - click an element using javascript click
+2021-06-26 07:34:37 DEBUG SearchDataDrivenTest:57 - performing the search for : Priyanka
+2021-06-26 07:34:37 DEBUG LinkedinLoggedinPage:45 - Performing people search for:Priyanka
+2021-06-26 07:34:37 DEBUG LinkedinLoggedinPage:47 - Press ENTER key
+2021-06-26 07:34:40 DEBUG SearchDataDrivenTest:59 - click on see all peole results link
+2021-06-26 07:34:40 DEBUG SearchResultsPage:32 - wait for the Search result page title
+2021-06-26 07:34:40 DEBUG SearchResultsPage:39 - wait for the see all people result link
+2021-06-26 07:34:40 DEBUG SearchResultsPage:42 - click on see all people result link
+2021-06-26 07:34:40 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-06-26 07:34:40 DEBUG BasePageWeb:43 - click on the given element
+2021-06-26 07:34:41 DEBUG SearchResultsPage:54 - fetch the results text
+2021-06-26 07:34:41 DEBUG SearchResultsPage:56 - search results text is:About 250,000 results
+2021-06-26 07:34:41 DEBUG SearchResultsPage:61 - results count text in string format is:250,000
+2021-06-26 07:34:41 DEBUG SearchDataDrivenTest:61 - search results count for:Priyanka is: 250000
+2021-06-26 07:34:41 DEBUG SearchDataDrivenTest:62 - click on Home tab
+2021-06-26 07:34:41 DEBUG SearchResultsPage:68 - click on Hometab
+2021-06-26 07:34:41 DEBUG BasePageWeb:56 - wait for the element to be clickable or not
+2021-06-26 07:34:41 DEBUG BasePageWeb:59 - click an element using javascript click
+2021-06-26 07:34:45 DEBUG SearchDataDrivenTest:57 - performing the search for : Laksmi Priya
+2021-06-26 07:34:45 DEBUG LinkedinLoggedinPage:45 - Performing people search for:Laksmi Priya
+2021-06-26 07:34:45 DEBUG LinkedinLoggedinPage:47 - Press ENTER key
+2021-06-26 07:34:47 DEBUG SearchDataDrivenTest:59 - click on see all peole results link
+2021-06-26 07:34:47 DEBUG SearchResultsPage:32 - wait for the Search result page title
+2021-06-26 07:34:47 DEBUG SearchResultsPage:39 - wait for the see all people result link
+2021-06-26 07:34:47 DEBUG SearchResultsPage:42 - click on see all people result link
+2021-06-26 07:34:47 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-06-26 07:34:47 DEBUG BasePageWeb:43 - click on the given element
+2021-06-26 07:34:49 DEBUG SearchResultsPage:54 - fetch the results text
+2021-06-26 07:34:49 DEBUG SearchResultsPage:56 - search results text is:About 3,800 results
+2021-06-26 07:34:49 DEBUG SearchResultsPage:61 - results count text in string format is:3,800
+2021-06-26 07:34:49 DEBUG SearchDataDrivenTest:61 - search results count for:Laksmi Priya is: 3800
+2021-06-26 07:34:49 DEBUG SearchDataDrivenTest:62 - click on Home tab
+2021-06-26 07:34:49 DEBUG SearchResultsPage:68 - click on Hometab
+2021-06-26 07:34:49 DEBUG BasePageWeb:56 - wait for the element to be clickable or not
+2021-06-26 07:34:49 DEBUG BasePageWeb:59 - click an element using javascript click
+2021-06-26 07:34:52 DEBUG SearchDataDrivenTest:76 - Perform the logout
+2021-06-26 07:34:52 DEBUG LinkedinLoggedinPage:38 - perform the logout operation
+2021-06-26 07:34:52 INFO  LinkedinLoggedinPage:39 - click on profile image icon
+2021-06-26 07:34:52 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-06-26 07:34:52 DEBUG BasePageWeb:43 - click on the given element
+2021-06-26 07:34:53 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-06-26 07:34:53 DEBUG BasePageWeb:43 - click on the given element
+2021-06-26 07:34:53 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2021-06-26 07:34:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2021-06-26 07:34:53 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2021-06-26 07:34:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2021-06-26 07:34:55 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2021-06-26 07:34:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2021-06-26 07:34:55 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2021-06-26 07:34:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2021-06-26 07:34:55 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2021-06-26 07:34:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2021-06-26 07:34:55 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2021-06-26 07:34:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2021-06-26 07:34:55 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2021-06-26 07:34:55 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-26 07:34:55 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-26 07:34:55 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-26 07:34:55 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-26 07:34:55 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-06-26 07:34:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2021-06-26 07:34:55 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2021-06-26 07:34:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2021-06-26 07:34:55 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2021-06-26 07:34:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2021-06-26 07:34:55 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2021-06-26 07:34:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2021-06-26 07:34:55 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2021-06-26 07:34:55 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2021-06-26 07:34:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2021-06-26 07:34:55 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/LENOVO/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2021-06-26 07:34:55 DEBUG TestBase:86 - Close the browser

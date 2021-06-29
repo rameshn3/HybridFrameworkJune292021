@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HybridFrameworkSuite" duration-ms="71623" started-at="2021-06-26T07:33:41 IST" finished-at="2021-06-26T07:34:53 IST">
+    <groups>
+    </groups>
+    <test name="HybridFrameworkTest" duration-ms="71623" started-at="2021-06-26T07:33:41 IST" finished-at="2021-06-26T07:34:53 IST">
+      <class name="com.qa.linkedin.testcase.SearchDataDrivenTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.linkedin.testcase.SearchDataDrivenTest@1d7acb34]" name="setup" is-config="true" duration-ms="14591" started-at="2021-06-26T07:33:27 IST" finished-at="2021-06-26T07:33:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.linkedin.testcase.SearchDataDrivenTest@1d7acb34]" name="beforeClass" is-config="true" duration-ms="132" started-at="2021-06-26T07:33:41 IST" finished-at="2021-06-26T07:33:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="performLoginTest()[pri:1, instance:com.qa.linkedin.testcase.SearchDataDrivenTest@1d7acb34]" name="performLoginTest" duration-ms="27403" started-at="2021-06-26T07:33:41 IST" finished-at="2021-06-26T07:34:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLoginTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcase.SearchDataDrivenTest@1d7acb34]" name="searchTest" duration-ms="9628" started-at="2021-06-26T07:34:12 IST" data-provider="searchData" depends-on-methods="com.qa.linkedin.testcase.SearchDataDrivenTest.performLoginTest" finished-at="2021-06-26T07:34:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcase.SearchDataDrivenTest@1d7acb34]" name="searchTest" duration-ms="8055" started-at="2021-06-26T07:34:22 IST" data-provider="searchData" depends-on-methods="com.qa.linkedin.testcase.SearchDataDrivenTest.performLoginTest" finished-at="2021-06-26T07:34:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Swarupa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcase.SearchDataDrivenTest@1d7acb34]" name="searchTest" duration-ms="7363" started-at="2021-06-26T07:34:30 IST" data-provider="searchData" depends-on-methods="com.qa.linkedin.testcase.SearchDataDrivenTest.performLoginTest" finished-at="2021-06-26T07:34:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shanti]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcase.SearchDataDrivenTest@1d7acb34]" name="searchTest" duration-ms="7462" started-at="2021-06-26T07:34:37 IST" data-provider="searchData" depends-on-methods="com.qa.linkedin.testcase.SearchDataDrivenTest.performLoginTest" finished-at="2021-06-26T07:34:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priyanka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcase.SearchDataDrivenTest@1d7acb34]" name="searchTest" duration-ms="7588" started-at="2021-06-26T07:34:45 IST" data-provider="searchData" depends-on-methods="com.qa.linkedin.testcase.SearchDataDrivenTest.performLoginTest" finished-at="2021-06-26T07:34:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laksmi Priya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.linkedin.testcase.SearchDataDrivenTest@1d7acb34]" name="afterClass" is-config="true" duration-ms="598" started-at="2021-06-26T07:34:52 IST" finished-at="2021-06-26T07:34:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linkedin.testcase.SearchDataDrivenTest@1d7acb34]" name="tearDown" is-config="true" duration-ms="1114" started-at="2021-06-26T07:34:55 IST" finished-at="2021-06-26T07:34:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.linkedin.testcase.SearchDataDrivenTest -->
+    </test> <!-- HybridFrameworkTest -->
+  </suite> <!-- HybridFrameworkSuite -->
+</testng-results>

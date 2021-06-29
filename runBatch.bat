@@ -1,0 +1,2 @@
+cd D:\eclipseworkspaceAug2018\HybridFrameowrkJune212021
+mvn clean install
