@@ -175,6 +175,7 @@ public class BasePageWeb extends TestBase {
 	}
 
 	void selectOption(Select selector, String value) {
+		log.debug("seletc an option by value attribute");
 		selector.selectByValue(value);
 	}
 
